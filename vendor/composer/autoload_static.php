@@ -9,12 +9,12 @@ class ComposerStaticInitb246b309e1fbe04b175a0ff543c36908
     public static $prefixLengthsPsr4 = array (
         'D' => 
         array (
-            'Deepak\\LaravelSwal\\' => 19,
+            'DeepakSinghKushwah\\LaravelSwal\\' => 31,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Deepak\\LaravelSwal\\' => 
+        'DeepakSinghKushwah\\LaravelSwal\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
