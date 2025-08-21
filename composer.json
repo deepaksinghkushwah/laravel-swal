@@ -1,19 +1,29 @@
 {
-    "name": "deepaksinghkushwah/laravel-swal",
-    "description": "Swal package integration in laravel",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "DeepakSinghKushwah\\LaravelSwal\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Deepak Singh Kushwah",
-            "email": "deepaksinghkushwah@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {}
+  "name": "deepaksinghkushwah/laravel-swal",
+  "description": "Swal package integration in laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "DeepakSinghKushwah\\LaravelSwal\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Deepak Singh Kushwah",
+      "email": "deepaksinghkushwah@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Deepaksinghkushwah\\LaravelSwal\\SwalServiceProvider"
+      ],
+      "aliases": {
+        "Swal": "Deepaksinghkushwah\\LaravelSwal\\Facades\\Swal"
+      }
+    }
+  }
 }
