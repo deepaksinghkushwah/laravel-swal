@@ -19,10 +19,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Deepaksinghkushwah\\LaravelSwal\\SwalServiceProvider"
+        "DeepakSinghKushwah\\LaravelSwal\\SwalServiceProvider"
       ],
       "aliases": {
-        "Swal": "Deepaksinghkushwah\\LaravelSwal\\Facades\\Swal"
+        "Swal": "DeepakSinghKushwah\\LaravelSwal\\Facades\\Swal"
       }
     }
   }
