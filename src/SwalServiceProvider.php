@@ -1,6 +1,6 @@
 <?php
 
-namespace Deepak\LaravelSwal;
+namespace DeepakSinghKushwah\LaravelSwal;
 
 use Illuminate\Support\ServiceProvider;
 
