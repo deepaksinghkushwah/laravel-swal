@@ -1,0 +1,19 @@
+{
+    "name": "deepak/laravel-swal",
+    "description": "Swal package integration in laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Deepak\\LaravelSwal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Deepak Singh Kushwah",
+            "email": "deepaksinghkushwah@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
